@@ -9,6 +9,8 @@ import ph.stacktrek.novare.gamenovare.bricenio.par.snakeandladder.databinding.Wi
 class ListOfWinnerAdapter(private val winners: List<String>) : RecyclerView.Adapter
     <ListOfWinnerAdapter.ViewHolder>() {
 
+
+
     inner class ViewHolder(private val binding: WinnersItemBinding) :
         RecyclerView.ViewHolder(binding.root) {
         fun bind(winner: String) {
